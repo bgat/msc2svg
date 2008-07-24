@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Input =
+{{{
+FFA500    ; ADFF2F           ;AD8F20              ; FF950F
+OPEN_REQ> ; OPEN_REMOTE_REQ> ;
+          ;                  ;OPEN_STARTED_IND<   ;
+          ;                  ;                    ;<CONFIG>
+          ;<START>           ;        
+OPEN_RES< ;                  ;OPEN_COMPLETED_IND< ;CONFIG_COMPLETED_IND<
+}}}	  
+
+
+= Output =
+
+[http://msc2svg.googlepages.com/screenshot_1.png]
