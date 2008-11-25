@@ -1,7 +1,7 @@
 <!-- Tufts VUE 2.2.8 concept-map (design.vue) 2008-11-25 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/C:/USERS/myapps/VUE/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Nov 25 14:07:06 CET 2008 by azhammad on platform Windows XP 5.1 in JVM 1.6.0_10-b33 -->
+<!-- Do Not Remove: Saved date Tue Nov 25 14:46:47 CET 2008 by azhammad on platform Windows XP 5.1 in JVM 1.6.0_10-b33 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built July 2 2008 at 1658 by vue on Linux 2.4.21-53.EL i386 JVM 1.5.0_06-b05 -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
