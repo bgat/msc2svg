@@ -1,6 +1,4 @@
 #summary One-sentence summary of this page.
 #labels Featured
 
-[http://msc2svg.googlepages.com/howto.png]
-
-
+[http://msc2svg.googlepages.com/mscchart.png]
