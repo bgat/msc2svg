@@ -1,0 +1,30 @@
+# FONT PROPERTIES
+font=Consolas-PLAIN-20
+
+colors.a=FFA500
+colors.b=00A500
+colors.c=FF1100
+colors.d=88A556
+colors.e=ADFF2F
+colors.f=FFAA00
+colors.g=001100
+colors.h=ADA800
+colors.i=FFA900
+colors.j=008080
+colors.k=FFA500
+colors.l=FFA500
+colors.m=FFA500
+colors.n=FFA500
+colors.o=FFA500
+
+#arrow fill
+arrow.fill=false
+chart.start.point.x=100
+chart.start.point.y=100
+
+chart.processes=Client,Local,Remote,Server
+chart.processes.color=660099
+
+# FILES
+file.in=input.demo.txt
+file.out=input.demo.svg
