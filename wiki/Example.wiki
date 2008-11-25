@@ -3,15 +3,18 @@
 
 = Input =
 {{{
-FFA500    ; ADFF2F           ;AD8F20              ; FF950F
-OPEN_REQ> ; OPEN_REMOTE_REQ> ;
-          ;                  ;OPEN_STARTED_IND<   ;
-          ;                  ;                    ;<CONFIG>
-          ;<START>           ;        
-OPEN_RES< ;                  ;OPEN_COMPLETED_IND< ;CONFIG_COMPLETED_IND<
+b# OPEN_CONNECTION_REQ> 	                ;        ;      
+b# OPEN_CONNECTION_RES<                         ;        ;   b# CONNECTION_STARTED_EVT>
+                                                ;<f#DATA>; 
+                                                ;        ;
+d# CLOSE_CONNECTION_REQ>                        ;        ;   
+d# CLOSE_CONNECTION_RES(OK)<                    ;        ;   
+                                                ;        ;
+                                                ;        ;
+c# CONNECTION_CLOSED_EVT<                       ;        ;   c# CONNECTION_CLOSED_EVT>
 }}}	  
 
 
 = Output =
 
-[http://msc2svg.googlepages.com/screenshot_1.png]
+[http://msc2svg.googlepages.com/output-screenshot.png]
