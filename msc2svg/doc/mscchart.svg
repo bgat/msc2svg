@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="mscchart.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2491"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       inkscape:collect="always"
+       id="filter3351">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.55843365"
+         id="feGaussianBlur3353" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0043553"
+     inkscape:cx="250.25291"
+     inkscape:cy="828.66844"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1400"
+     inkscape:window-height="1001"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2386"
+       transform="translate(-110.92132,216.51736)"
+       inkscape:export-filename="c:\USERS\work\nosec\eclipse\workspace\msc2svg\doc\mscchart.png"
+       inkscape:export-xdpi="92.322586"
+       inkscape:export-ydpi="92.322586">
+      <g
+         id="g2388"
+         font-size="20"
+         style="font-size:20px;fill:#00a500;stroke:#00a500;font-family:Consolas">
+        <polygon
+           id="polygon2390"
+           points="471,163 480,154 471,145 471,163 "
+           style="fill:none" />
+        <line
+           id="line2392"
+           y1="154"
+           x2="176"
+           x1="100"
+           y2="154"
+           style="fill:none" />
+        <rect
+           id="rect2394"
+           y="138"
+           height="32"
+           width="228"
+           x="176"
+           style="fill:none" />
+        <text
+           id="text2396"
+           y="159"
+           xml:space="preserve"
+           x="180"
+           style="stroke:none"> OPEN_CONNECTION_REQ</text>
+        <line
+           id="line2398"
+           y1="154"
+           x2="471"
+           x1="404"
+           y2="154"
+           style="fill:none" />
+        <polygon
+           id="polygon2400"
+           points="109,199 100,190 109,181 109,199 "
+           style="fill:none" />
+        <line
+           id="line2402"
+           y1="190"
+           x2="176"
+           x1="109"
+           y2="190"
+           style="fill:none" />
+        <rect
+           id="rect2404"
+           y="174"
+           height="32"
+           width="228"
+           x="176"
+           style="fill:none" />
+        <text
+           id="text2406"
+           y="195"
+           xml:space="preserve"
+           x="180"
+           style="stroke:none"> OPEN_CONNECTION_RES</text>
+        <line
+           id="line2408"
+           y1="190"
+           x2="480"
+           x1="404"
+           y2="190"
+           style="fill:none" />
+        <polygon
+           id="polygon2410"
+           points="989,199 998,190 989,181 989,199 "
+           style="fill:none" />
+        <line
+           id="line2412"
+           y1="190"
+           x2="689"
+           x1="641"
+           y2="190"
+           style="fill:none" />
+        <rect
+           id="rect2414"
+           y="174"
+           height="32"
+           width="261"
+           x="689"
+           style="fill:none" />
+        <text
+           id="text2416"
+           y="195"
+           xml:space="preserve"
+           x="693"
+           style="stroke:none"> CONNECTION_STARTED_EVT</text>
+        <line
+           id="line2418"
+           y1="190"
+           x2="989"
+           x1="950"
+           y2="190"
+           style="fill:none" />
+        <polygon
+           id="polygon2420"
+           points="471,226 480,210 641,210 650,226 641,242 480,242 471,226 "
+           style="fill:none;stroke:#ffaa00" />
+        <text
+           id="text2422"
+           y="231"
+           xml:space="preserve"
+           x="539"
+           style="fill:#ffaa00;stroke:none">DATA</text>
+        <polygon
+           id="polygon2424"
+           points="470,307 479,298 470,289 470,307 "
+           style="fill:none;stroke:#88a556" />
+        <line
+           id="line2426"
+           y1="298"
+           x2="170"
+           x1="100"
+           y2="298"
+           style="fill:none;stroke:#88a556" />
+        <rect
+           id="rect2428"
+           y="282"
+           height="32"
+           width="239"
+           x="170"
+           style="fill:none;stroke:#88a556" />
+        <text
+           id="text2430"
+           y="303"
+           xml:space="preserve"
+           x="174"
+           style="fill:#88a556;stroke:none"> CLOSE_CONNECTION_REQ</text>
+        <line
+           id="line2432"
+           y1="298"
+           x2="470"
+           x1="409"
+           y2="298"
+           style="fill:none;stroke:#88a556" />
+        <polygon
+           id="polygon2434"
+           points="109,343 100,334 109,325 109,343 "
+           style="fill:none;stroke:#88a556" />
+        <line
+           id="line2436"
+           y1="334"
+           x2="148"
+           x1="109"
+           y2="334"
+           style="fill:none;stroke:#88a556" />
+        <rect
+           id="rect2438"
+           y="318"
+           height="32"
+           width="283"
+           x="148"
+           style="fill:none;stroke:#88a556" />
+        <text
+           id="text2440"
+           y="339"
+           xml:space="preserve"
+           x="152"
+           style="fill:#88a556;stroke:none"> CLOSE_CONNECTION_RES(OK)</text>
+        <line
+           id="line2442"
+           y1="334"
+           x2="479"
+           x1="431"
+           y2="334"
+           style="fill:none;stroke:#88a556" />
+        <polygon
+           id="polygon2444"
+           points="109,451 100,442 109,433 109,451 "
+           style="fill:none;stroke:#ff1100" />
+        <line
+           id="line2446"
+           y1="442"
+           x2="165"
+           x1="109"
+           y2="442"
+           style="fill:none;stroke:#ff1100" />
+        <rect
+           id="rect2448"
+           y="426"
+           height="32"
+           width="250"
+           x="165"
+           style="fill:none;stroke:#ff1100" />
+        <text
+           id="text2450"
+           y="447"
+           xml:space="preserve"
+           x="169"
+           style="fill:#ff1100;stroke:none"> CONNECTION_CLOSED_EVT</text>
+        <line
+           id="line2452"
+           y1="442"
+           x2="480"
+           x1="415"
+           y2="442"
+           style="fill:none;stroke:#ff1100" />
+        <polygon
+           id="polygon2454"
+           points="990,451 999,442 990,433 990,451 "
+           style="fill:none;stroke:#ff1100" />
+        <line
+           id="line2456"
+           y1="442"
+           x2="695"
+           x1="641"
+           y2="442"
+           style="fill:none;stroke:#ff1100" />
+        <rect
+           id="rect2458"
+           y="426"
+           height="32"
+           width="250"
+           x="695"
+           style="fill:none;stroke:#ff1100" />
+        <text
+           id="text2460"
+           y="447"
+           xml:space="preserve"
+           x="699"
+           style="fill:#ff1100;stroke:none"> CONNECTION_CLOSED_EVT</text>
+        <line
+           id="line2462"
+           y1="442"
+           x2="990"
+           x1="945"
+           y2="442"
+           style="fill:none;stroke:#ff1100" />
+        <line
+           id="line2464"
+           y1="100"
+           x2="100"
+           x1="100"
+           y2="532"
+           style="fill:none;stroke:#660099" />
+        <rect
+           id="rect2466"
+           y="68"
+           height="32"
+           width="74"
+           x="63"
+           style="fill:none;stroke:#660099" />
+        <text
+           id="text2468"
+           y="89"
+           xml:space="preserve"
+           x="67"
+           style="fill:#660099;stroke:none">Client</text>
+        <line
+           id="line2470"
+           y1="100"
+           x2="480"
+           x1="480"
+           y2="532"
+           style="fill:none;stroke:#660099" />
+        <rect
+           id="rect2472"
+           y="68"
+           height="32"
+           width="63"
+           x="449"
+           style="fill:none;stroke:#660099" />
+        <text
+           id="text2474"
+           y="89"
+           xml:space="preserve"
+           x="453"
+           style="fill:#660099;stroke:none">Local</text>
+        <line
+           id="line2476"
+           y1="100"
+           x2="641"
+           x1="641"
+           y2="532"
+           style="fill:none;stroke:#660099" />
+        <rect
+           id="rect2478"
+           y="68"
+           height="32"
+           width="74"
+           x="604"
+           style="fill:none;stroke:#660099" />
+        <text
+           id="text2480"
+           y="89"
+           xml:space="preserve"
+           x="608"
+           style="fill:#660099;stroke:none">Remote</text>
+        <line
+           id="line2482"
+           y1="100"
+           x2="999"
+           x1="999"
+           y2="532"
+           style="fill:none;stroke:#660099" />
+        <rect
+           id="rect2484"
+           y="68"
+           height="32"
+           width="74"
+           x="962"
+           style="fill:none;stroke:#660099" />
+        <text
+           id="text2486"
+           y="89"
+           xml:space="preserve"
+           x="966"
+           style="fill:#660099;stroke:none">Server</text>
+      </g>
+    </g>
+    <path
+       d="M -34.26396,279.46515 A 13.705584,13.216099 0 1 1 -61.675127,279.46515 A 13.705584,13.216099 0 1 1 -34.26396,279.46515 z"
+       sodipodi:ry="13.216099"
+       sodipodi:rx="13.705584"
+       sodipodi:cy="279.46515"
+       sodipodi:cx="-47.969543"
+       id="path2547"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3351)"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#d4ff2a;fill-rule:evenodd;stroke:#668000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2545"
+       sodipodi:cx="-47.969543"
+       sodipodi:cy="279.46515"
+       sodipodi:rx="13.705584"
+       sodipodi:ry="13.216099"
+       d="M -34.26396,279.46515 A 13.705584,13.216099 0 1 1 -61.675127,279.46515 A 13.705584,13.216099 0 1 1 -34.26396,279.46515 z"
+       transform="translate(0.1308525,-0.5234098)" />
+    <rect
+       style="fill:#e5ff80;stroke:#ddff55;stroke-width:0.72293794"
+       id="rect3375"
+       width="214.33495"
+       height="55.031944"
+       x="-299.28717"
+       y="179.44894" />
+    <text
+       xml:space="preserve"
+       style="font-size:29.74173927000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#677821;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans MT Condensed;-inkscape-font-specification:'Gill Sans MT Condensed,'"
+       x="-267.52692"
+       y="213.47818"
+       id="text3377"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3379"
+         x="-267.52692"
+         y="213.47818">chart.start.point.x</tspan></text>
+    <rect
+       y="250.22966"
+       x="-297.95169"
+       height="55.031944"
+       width="214.33495"
+       id="rect3381"
+       style="fill:#e5ff80;stroke:#ddff55;stroke-width:0.72293794" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3383"
+       y="284.25888"
+       x="-266.19144"
+       style="font-size:29.74173927000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#677821;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans MT Condensed;-inkscape-font-specification:'Gill Sans MT Condensed,'"
+       xml:space="preserve"><tspan
+         y="284.25888"
+         x="-266.19144"
+         id="tspan3385"
+         sodipodi:role="line">chart.start.point.y</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#88aa00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -86.806525,205.66469 C -59.943507,217.64697 -48.639854,238.6058 -48.07746,265.76152 L -48.07746,265.76152"
+       id="path3397"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#88aa00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -83.579668,276.62843 L -61.43231,277.01485"
+       id="path3399"
+       sodipodi:nodetypes="cc" />
+    <rect
+       y="126.02954"
+       x="331.41119"
+       height="55.031944"
+       width="214.33495"
+       id="rect3407"
+       style="fill:#d7d7f4;stroke:#3737c8;stroke-width:0.72293794" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3409"
+       y="159.92809"
+       x="375.60257"
+       style="font-size:29.74173927px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#2c2ca0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Gill Sans MT Condensed;-inkscape-font-specification:'Gill Sans MT Condensed,'"
+       xml:space="preserve"><tspan
+         y="159.92809"
+         x="375.60257"
+         id="tspan3411"
+         sodipodi:role="line">chart.processes</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#2c2ca0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 527.61178,282.8544 C 544.59227,207.71024 520.69635,180.82732 520.69635,180.82732"
+       id="path3417"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#2c2ca0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 880.69286,282.8068 C 846.6223,168.87159 601.74196,150.20471 545.70694,151.27343"
+       id="path3419"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3421"
+       d="M -4.8950152,285.79379 C 29.175545,171.85858 274.05588,153.1917 330.0909,154.26042"
+       style="fill:none;fill-rule:evenodd;stroke:#2c2ca0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3423"
+       d="M 369.47533,282.8544 C 352.49484,207.71024 376.39076,180.82732 376.39076,180.82732"
+       style="fill:none;fill-rule:evenodd;stroke:#2c2ca0;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>
