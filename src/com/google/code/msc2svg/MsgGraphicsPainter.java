@@ -19,7 +19,7 @@
  * USA
  */
 
-package com.google.code.msc2svg.paint;
+package com.google.code.msc2svg;
 
 import java.awt.Color;
 import java.awt.FontMetrics;
@@ -29,7 +29,6 @@ import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 import java.awt.*;
 
-import com.google.code.msc2svg.Context;
 import com.google.code.msc2svg.model.Message;
 
 public class MsgGraphicsPainter {

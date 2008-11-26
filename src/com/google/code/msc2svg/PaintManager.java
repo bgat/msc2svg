@@ -19,7 +19,7 @@
  * USA
  */
 
-package com.google.code.msc2svg.paint;
+package com.google.code.msc2svg;
 
 import java.awt.Color;
 import java.awt.Point;
@@ -27,7 +27,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import com.csvreader.CsvReader;
-import com.google.code.msc2svg.Context;
 import com.google.code.msc2svg.model.Message;
 
 public class PaintManager {

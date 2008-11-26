@@ -27,8 +27,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import com.google.code.msc2svg.paint.PaintManager;
-
 
 
 public class Application {
