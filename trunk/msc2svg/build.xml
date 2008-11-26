@@ -8,12 +8,18 @@
 	<property name="dist" location="dist" />
 	<property name="lib" location="lib" />
 	<property name="res" location="res" />
+	<property name="doc" location="doc" />
 
-	<property name="version" value="0.2" />
+	<property name="version" value="0.2.1" />
 
 	<path id="classpath">
 		<fileset dir="${lib}" includes="**/*.jar" />
 	</path>
+	
+	<path id="run.classpath">
+			<fileset dir="${dist}/lib" includes="**/*.jar" />
+		</path>
+		
 
 	<target name="init">
 		<!-- Create the time stamp -->
@@ -24,16 +30,18 @@
 
 	<target name="compile" depends="init" description="compile the source ">
 		<!-- Compile the java code from ${src} into ${build} -->
-		<javac srcdir="${src}" destdir="${build}" classpathref="classpath" />
+		<javac srcdir="${src}" destdir="${build}" classpathref="classpath" target="1.5"/>
 	</target>
 
-	<target name="dist" depends="clean,compile" description="generate the distribution">
+	<target name="dist" depends="compile" description="generate the distribution">
 		<!-- Create the distribution directory -->
 		<mkdir dir="${dist}/lib" />
 
 		<!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
 		<jar jarfile="${dist}/lib/msc2svg-${version}.jar" basedir="${build}" />
 		<mkdir dir="${dist}/lib" />
+	    <mkdir dir="${doc}/lib" />
+
 		<copy todir="${dist}/lib">
 			<fileset dir="${lib}" />
 		</copy>
@@ -41,10 +49,14 @@
 			<fileset file="${res}/run.cmd" />
 			<fileset file="${res}/application.props" />
 			<fileset file="${res}/input.demo.txt" />
+			<fileset file="${doc}/readme.txt" />
+			
 		</copy>
-		<replace file="${dist}/run.cmd" token="@@@" value="${version}" />
-
+		<replace file="${dist}/run.cmd" token="@version@" value="${version}" />
+		<replace file="${dist}/readme.txt" token="@version@" value="${version}" />
 	</target>
+	
+	
 
 	<target name="test" depends="dist">
 		<exec executable="${dist}/run.cmd" dir="${dist}" />
@@ -53,20 +65,20 @@
 		<echo message="test passed succefully :-)" />
 	</target>
 
-	<target name="packages" depends="dist">
+	<target name="packages" depends="clean, init, dist, test">
 		<mkdir dir="packages" />
 
 		<zip destfile="packages/msc2svg-${version}-src.zip">
 			<zipfileset dir="${src}" prefix="src"/>
 			<zipfileset dir="${res}" prefix="res"/>
 			<zipfileset dir="${lib}" prefix="lib"/>
+			<zipfileset dir="${doc}" prefix="doc"/>
 			<zipfileset file="build.xml"/>
 		</zip>
 
 		<zip destfile="packages/msc2svg-${version}-bin.zip">
 			<zipfileset dir="${dist}" />
 		</zip>
-
 
 	</target>
 
@@ -77,4 +89,11 @@
 		<delete dir="packages" />
 
 	</target>
+		
+	
+	<target name="run" depends="dist">
+	 <java classname="com.google.code.msc2svg.Application" classpathref="run.classpath" dir="${dist}" fork="true" jvmversion="1.5"/>
+		
+	</target>
+	
 </project>
