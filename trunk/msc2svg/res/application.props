@@ -1,6 +1,7 @@
-# FONT PROPERTIES
+# font to use
 font=Consolas-PLAIN-20
 
+# definition color codes used in the input file
 colors.a=FFA500
 colors.b=00A500
 colors.c=FF1100
@@ -17,14 +18,18 @@ colors.m=FFA500
 colors.n=FFA500
 colors.o=FFA500
 
-#arrow fill
+# the arrow form
 arrow.fill=false
+
+# the top right starting point
 chart.start.point.x=100
 chart.start.point.y=100
 
+# processes names
 chart.processes=Client,Local,Remote,Server
+# process color
 chart.processes.color=660099
 
-# FILES
+# input and output files
 file.in=input.demo.txt
 file.out=input.demo.svg
